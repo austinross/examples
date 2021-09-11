@@ -1,4 +1,4 @@
-# 3. Character-Counter
+# 4. Character-Counter
 
 ### Creating the WebAssembly module for char-count service
 
@@ -60,7 +60,7 @@ We have also updated our tests found in the `main.rs` file:
  }
 
 ```
-To run the tests, use the`cargo +nightly test --release` command. 
+To run the tests, use the `cargo +nightly test --release` command. 
 
 ### Deploying The Wasm Module To The Network
 
@@ -141,8 +141,8 @@ npm run compile-aqua
 npm start
 ```
 
-### Play with the app
-
 Which will open a new browser tab at http://localhost:3000 . Following the instructions, we connect to any one of the displayed relay ids, open another browser tab also at http://localhost:3000, select a relay and copy and paste the client peer id and relay id into corresponding fields in the first tab and press the say hello button.
 
 You will now see the message and character count for the message.
+
+![app running](https://i.imgur.com/yRylFC6.png)
