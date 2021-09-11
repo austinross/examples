@@ -57,7 +57,7 @@ export async function sayHello(client: FluenceClient, targetPeerId: string, targ
      (xor
       (seq
        (call -relay- ("op" "noop") [])
-       (call "12D3KooWFEwNWcHqi9rtsmDhsYcDbRUCDXH84RC4FW6UfsFWaoHi" ("1e740ce4-81f6-4dd4-9bed-8d86e9c2fa50" "hello") [%init_peer_id%] comp)
+       (call "12D3KooWSD5PToNiLQwKDXsu8JSysCwUt8BVUJEqCHcDe7P5h45e" ("e78c1362-44df-4f4f-9e48-052d11cc1b60" "hello") [%init_peer_id%] comp)
       )
       (seq
        (call -relay- ("op" "noop") [])
